@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Ringkasan Produk
+## Ringkasan Produk
 
 **WanderWise AI** adalah platform asisten perjalanan dan intelijen kuliner terintegrasi yang dirancang untuk mengatasi fragmentasi perencanaan perjalanan. Platform ini menggabungkan konsultasi berbasis persona ahli, penelusuran dokumen perjalanan privat dengan **Retrieval-Augmented Generation (RAG)**, serta analitik data pariwisata real-time berbasis **Autonomous ReAct SQL Agent**.
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 🎨 Penyempurnaan Desain & UI/UX (SaaS Theme)
+## Penyempurnaan Desain & UI/UX (SaaS Theme)
 
 Aplikasi `app_integrated.py` dirancang dengan pendekatan visual modern layaknya produk SaaS kelas enterprise:
 
@@ -42,7 +42,7 @@ Aplikasi `app_integrated.py` dirancang dengan pendekatan visual modern layaknya 
 
 ---
 
-## 🌟 Dokumentasi Fitur Utama (3 Modul Terpadu)
+## Dokumentasi Fitur Utama (3 Modul Terpadu)
 
 WanderWise AI mengintegrasikan 3 mode kecerdasan buatan utama dalam satu antarmuka mulus:
 
@@ -62,7 +62,7 @@ WanderWise AI mengintegrasikan 3 mode kecerdasan buatan utama dalam satu antarmu
 
 ---
 
-### 💬 Mode 1: Travel Chat & Persona Eksploratif
+### Mode 1: Travel Chat & Persona Eksploratif
 
 Mode ini menghadirkan pengalaman percakapan alami dengan AI yang bertindak sebagai pemandu wisata profesional sesuai kebutuhan pengguna.
 
@@ -88,7 +88,7 @@ Disediakan tombol interaktif sekali klik untuk mengajukan pertanyaan populer:
 
 ---
 
-### 📄 Mode 2: RAG Dokumen Perjalanan (PDF Knowledge Base)
+### Mode 2: RAG Dokumen Perjalanan (PDF Knowledge Base)
 
 Mode RAG (Retrieval-Augmented Generation) memungkinkan pengguna mengunggah dokumen pribadi (panduan wisata, e-ticket, brosur hotel, atau rencana perjalanan) dan mendapatkan jawaban yang terverifikasi dari isi dokumen tersebut.
 
@@ -114,7 +114,7 @@ flowchart LR
 
 ---
 
-### 🤖 Mode 3: AI Travel Data Analyst Agent (ReAct SQL Tool-Calling)
+### Mode 3: AI Travel Data Analyst Agent (ReAct SQL Tool-Calling)
 
 Mode ini mentransformasikan WanderWise AI menjadi analis data pariwisata otonom yang dapat mengonversi pertanyaan bahasa alami menjadi query SQL, mengeksekusinya ke database `wanderwise_travel.db`, dan menyajikan analisis bisnis yang mendalam.
 
@@ -141,7 +141,7 @@ Pengguna dapat langsung menguji analisis data kompleks melalui tombol pintasan:
 
 ---
 
-## 🚀 Panduan Instalasi & Eksekusi
+## Panduan Instalasi & Eksekusi
 
 ### 1. Prasyarat Sistem
 * **Python**: Versi 3.10 atau yang lebih baru.
@@ -177,7 +177,7 @@ http://localhost:8501
 
 ---
 
-## 📁 Struktur Repositori Proyek
+## Struktur Repositori Proyek
 
 ```text
 WanderWise AI/
@@ -192,7 +192,7 @@ WanderWise AI/
 
 ---
 
-## 🔒 Keamanan & Praktik Terbaik
+## Keamanan & Praktik Terbaik
 
 1. **Read-Only SQL Safety**: Fungsi `sql_execute_query` memvalidasi input query dan secara tegas hanya mengizinkan klausa `SELECT` atau `WITH`. Perintah yang berpotensi merusak data (`DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`) diblokir di level aplikasi.
 2. **Keamanan API Key**: API Key diinputkan secara aman melalui kolom berformat password pada Streamlit session tanpa disimpan secara permanen di file kode sumber atau repository Git.
