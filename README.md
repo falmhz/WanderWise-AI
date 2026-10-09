@@ -20,7 +20,7 @@
 | **Nama Project** | **WanderWise AI — Smart Travel & Culinary Intelligence Platform** |
 | **Target Pengguna** | Wisatawan mandiri, *food enthusiast*, perencana itinerary keluarga, backpacker, digital nomad, hingga analis industri pariwisata. |
 | **Nilai Tambah / Solusi** | <ul><li>Menyediakan konsultasi interaktif dengan 4 persona spesialis yang dapat disesuaikan.</li><li>Menghilangkan halusinasi jawaban dokumen melalui RAG berbasis kutipan langsung dan nomor halaman.</li><li>Menjawab pertanyaan analitis kompleks seputar destinasi, biaya, dan akomodasi langsung dari database secara otonom tanpa latensi berlebih.</li><li>Tampilan visual SaaS modern yang intuitif, responsif, dan bebas gangguan (*zero-clutter*).</li></ul> |
-| **Stack Teknologi Utama** | **Streamlit**, **Google Gemini API** (`gemini-2.5-flash`), **Groq API** (`llama-3.3-70b`), **LangChain & LangGraph**, **FAISS Vector Store**, **PyMuPDF (`fitz`)**, dan **SQLite3**. |
+| **Stack Teknologi Utama** | **Streamlit**, **Google Gemini API** (`gemini-3.5-flash`), **Groq API** (`llama-3.3-70b`), **LangChain & LangGraph**, **FAISS Vector Store**, **PyMuPDF (`fitz`)**, dan **SQLite3**. |
 
 ---
 
